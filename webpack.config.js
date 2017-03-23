@@ -20,7 +20,7 @@ var config = {
   entry: __dirname + '/src/Sheet.js',
   devtool: 'source-map',
   output: {
-    path: __dirname + '/lib',
+    path: __dirname + '/dist',
     filename: outputFile,
     library: libraryName,
     libraryTarget: 'var'
